@@ -26,7 +26,7 @@
 		<div class="backdrop is-hidden" data-modal>
 			<div class="modal">
 				<button class="modal-close" data-modal-close><svg class="close-icon"><use href="./images/symbol-defs.svg#close-black-btn"></use></svg></button>
-			<h3 class="modal-title">Залиште свої дані, ми вам передзвонимо</h3>
+			<p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
 				<form class="form">
 					<div class="form-field">
 				<label class="form-label" for="name">Ім'я</label>
@@ -50,7 +50,7 @@
 				<label class="form-label" for="feedback">Коментар</label>
 				<textarea class="form-textarea form-input" name="feedback" rows="5" id="feedback" placeholder="Введіть текст"></textarea></div>
 				
-				<div class="form-field agreement">
+				<div class="agreement">
 				
 				<label class="form-agreement" for="checkbox"><input class="checkbox-old" type="checkbox" name="hobby" id="checkbox" value="reading" required /><span class="form-checkbox"></span>Погоджуюся з розсилкою та приймаю <a class="form-link" href=""> Умови договору</a></label></div>
 
@@ -425,7 +425,7 @@
 					<p class="footer-title subs">Підпишіться на розсилку</p>
 					<form class="footer-subscribe-form">
 						<label>
-							<input class="footer-email-input" id="footer-sub" type="email" name="email" placeholder="E-mail"/>
+							<input class="footer-email-input" id="footer-sub" type="email" name="email" placeholder="E-mail" required/>
 						  </label>
 							<button for="footer-sub" class="form-button subscribe">Підписатися<svg class="footer-send-icon">
 								<use href="./images/symbol-defs.svg#iconsend"></use>
